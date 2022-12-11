@@ -7,7 +7,7 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -38,7 +38,7 @@
         "NSPhotoLibraryUsageDescription": "Allow $(PRODUCT_NAME) to access your photos.",
         "NSPhotoLibraryAddUsageDescription": "Allow $(PRODUCT_NAME) to save photos."
       },
-      "bundleIdentifier": "com.mahmudulhaquequdrati.sunucorp2"
+      "bundleIdentifier": "com.mahmudulhaquequdrati2.sunucorp2"
     },
     "android": {
       "adaptiveIcon": {
@@ -51,14 +51,14 @@
         "android.permission.ACCESS_MEDIA_LOCATION",
         "android.permission.RECORD_AUDIO"
       ],
-      "package": "com.mahmudulhaquequdrati.sunucorp2"
+      "package": "com.mahmudulhaquequdrati2.sunucorp2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "67fd3410-904f-4d38-9099-0ee1cf1bcca7"
+        "projectId": "27e3ffd5-c3d4-4ce3-9975-8cadb970cfbb"
       }
     }
   }
