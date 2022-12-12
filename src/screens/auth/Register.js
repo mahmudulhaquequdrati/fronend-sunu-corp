@@ -187,7 +187,7 @@ const Register = ({ navigation }) => {
                 onFocus={() => setOnKeyboardShow(true)}
                 // onEndEditing={() => setOnKeyboardShow(false)}
                 keyboardType="numeric" // file type
-                placeholder="Date of birth"
+                placeholder="Date of birth (Ex: DD-MM-YYYY)"
                 onChangeText={(text) => setDateOfBrith(text)}
                 // onChangeText={(text) => setName(text)}
                 style={styles.textInput}
@@ -246,6 +246,7 @@ const Register = ({ navigation }) => {
                 // onEndEditing={() => setOnKeyboardShow(false)}
                 keyboardType="numeric"
                 placeholder="Year of degree"
+                maxLength={4}
                 style={styles.textInput}
                 onChangeText={(text) => setYearOfDegree(text)}
                 // onChangeText={(text) => setNumber(text)}
